@@ -18,3 +18,7 @@ console.log(typeof(cognomeUser), 'Cognome user');
 console.log(typeof(coloreUser), 'Colore');
 
 console.log(dati);
+
+const paragrafo = document.getElementById("testo");
+paragrafo.innerHTML = dati;
+paragrafo.style.color='red';
